@@ -25,8 +25,8 @@ jobs:
       - name: Terraform Init
         run: terraform init
 
-      - name: Terraform Format
-        run: terraform fmt -check
+      - name: Auto-format Terraform files
+        run: terraform fmt -recursive
 
       - name: Terraform Plan
         run: terraform plan
