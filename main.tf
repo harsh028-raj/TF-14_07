@@ -1,5 +1,5 @@
 resource "aws_instance" "web" {
-  ami           = "ami-0c02fb55956c7d316"  # Amazon Linux 2
+  ami           = "ami-0f918f7e67a3323f0"  # Amazon Linux 2
   instance_type = "t2.micro"
 
   tags = {
